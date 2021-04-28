@@ -1,0 +1,17 @@
+<html>
+<body>
+<div>
+<h1>Choisir le TP Javascript à afficher :</h1>
+<form name="change">
+<SELECT NAME="options" ONCHANGE="document.getElementById('youriframe').src = this.options[this.selectedIndex].value">
+<option value="index.html">Choisir la page</option>
+<option value="evalPartie1.html">TP1 - Mot de passe</option>
+<option value="evalPartie2.html">TP 2 - Addition Nombres</option>
+</SELECT>
+</div>
+
+<iframe name="iframe" width="100%" height="100%" frameborder="0" id="youriframe" src="">
+
+</iframe>
+</body>
+</html>
